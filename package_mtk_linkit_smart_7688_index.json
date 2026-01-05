@@ -1,0 +1,41 @@
+{
+  "packages": [
+    {
+      "name": "mtk",
+      "maintainer": "MediaTek Labs",
+      "websiteURL": "https://labs.mediatek.com",
+      "email": "labs@mediatek.com",
+      "help": {
+        "online": "https://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/arduino/en/download.gsp"
+      },
+      "platforms": [
+        {
+          "name": "LinkIt Smart 7688 Duo",
+          "architecture": "avr",
+          "version": "1.1.6",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/MediaTek-Labs/Arduino-Add-On-for-LinkIt-Smart-7688/master/installer/mtk_linkit_smart_7688_arduino-1.1.6.tar.bz2",
+          "archiveFileName": "mtk_linkit_smart_7688_arduino-1.1.6.tar.bz2",
+          "checksum": "SHA-256:9b2b3f9d57c8a33a5d8aa7f55b7a0e1cbaacb1c7ebba9a491c0f6a8c2b1e71c3",
+          "size": "8423123",
+          "boards": [
+            { "name": "LinkIt Smart 7688 Duo" }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5",
+              "packager": "arduino"
+            },
+            {
+              "name": "avrdude",
+              "version": "6.0.1-arduino5",
+              "packager": "arduino"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
